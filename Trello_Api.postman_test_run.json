@@ -1,0 +1,614 @@
+{
+	"id": "071b2ed1-c136-4758-93e6-dc8dd5f17dbd",
+	"name": "Trello_Api",
+	"timestamp": "2023-09-19T20:06:50.443Z",
+	"collection_id": "27882062-109fcc3f-5db0-43fd-bffb-a923fecdfddf",
+	"folder_id": 0,
+	"environment_id": "27882062-e802d8c4-5135-4748-be22-fd67d8a4d21d",
+	"totalPass": 32,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-19T20:06:41.734Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6a2d6e7c-28eb-4a9c-8d6e-73b5f07d0e19",
+			"name": "Create Board",
+			"url": "https://api.trello.com/1/boards/?name=myboard1&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 556,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Created Board Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Created Board Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				556
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Created Board Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "eac8f322-1122-4f0e-bfc8-50c8e9a9da5b",
+			"name": "Create List",
+			"url": "https://api.trello.com/1/lists?name=my_list1&idBoard=6509ff54088802f8131bdcf5&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 413,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Created List Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Created List Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				413
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Created List Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "743f5702-0210-475a-b2e7-c3f73f1cfd37",
+			"name": "Create Card",
+			"url": "https://api.trello.com/1/cards?name=card_1&idList=6509ff550ae4f2ab7b0c8444&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 509,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Card Created Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Card Created Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				509
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Card Created Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "1f40831f-537f-4305-9a2f-84732aaa228e",
+			"name": "Update Board",
+			"url": "https://api.trello.com/1/boards/6509ff54088802f8131bdcf5?name=board_updated&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 408,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Board Updated Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Board Updated Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				408
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Board Updated Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "3e053add-01e8-4c8e-84e6-dd7a2250ed88",
+			"name": "Update List",
+			"url": "https://api.trello.com/1/lists/6509ff550ae4f2ab7b0c8444?name=my_list1_updated&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 367,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"List Updated Sucessfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"List Updated Sucessfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				367
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"List Updated Sucessfully.": true
+				}
+			]
+		},
+		{
+			"id": "6b3ef9d4-4e6e-4772-bba1-0bfd85f8e2c7",
+			"name": "Update Card",
+			"url": "https://api.trello.com/1/cards/6509ff568223a6a2b0be32d4?name=my_card_updated&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 417,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Card Updated Sucessfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Card Updated Sucessfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				417
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Card Updated Sucessfully.": true
+				}
+			]
+		},
+		{
+			"id": "fe73f72f-c493-417b-b602-b7bff2cd130c",
+			"name": "Read Board",
+			"url": "https://api.trello.com/1/boards/6509ff54088802f8131bdcf5?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 336,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"GET Board Successfull.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"GET Board Successfull.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				336
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"GET Board Successfull.": true
+				}
+			]
+		},
+		{
+			"id": "9a069ca1-c809-4664-b3aa-d92d3f5ab543",
+			"name": "Read List",
+			"url": "https://api.trello.com/1/lists/6509ff550ae4f2ab7b0c8444?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 355,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"GET List Successfull.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"GET List Successfull.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				355
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"GET List Successfull.": true
+				}
+			]
+		},
+		{
+			"id": "fa88c601-fe26-43f3-9e2b-7e6932e3ed0d",
+			"name": "Read Card Copy",
+			"url": "https://api.trello.com/1/cards/6509ff568223a6a2b0be32d4?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 345,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"GET Card Successfull.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"GET Card Successfull.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				345
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"GET Card Successfull.": true
+				}
+			]
+		},
+		{
+			"id": "8dae112f-ea64-472a-8c29-80e6f86c4a1e",
+			"name": "Create Checklist",
+			"url": "https://api.trello.com/1/checklists?idCard=6509ff568223a6a2b0be32d4&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2&name=my_checklist",
+			"time": 401,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Checklist created successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checklist created successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				401
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Checklist created successfully.": true
+				}
+			]
+		},
+		{
+			"id": "16c22768-97da-455b-87c1-a46cc170e379",
+			"name": "Update Checklist",
+			"url": "https://api.trello.com/1/checklists/6509ff58478f760e96245cb8?name=my_checklist_updated&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 456,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Checklist Updated Sucessfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checklist Updated Sucessfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				456
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Checklist Updated Sucessfully.": true
+				}
+			]
+		},
+		{
+			"id": "faa9958d-f796-4289-ab92-2048397d958e",
+			"name": "Read Checklist",
+			"url": "https://api.trello.com/1/checklists/6509ff58478f760e96245cb8?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 369,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"GET Checklist Successfull.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"GET Checklist Successfull.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				369
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"GET Checklist Successfull.": true
+				}
+			]
+		},
+		{
+			"id": "40a12c48-7869-4798-af75-55c8971acd19",
+			"name": "Delete Checklist",
+			"url": "https://api.trello.com/1/checklists/6509ff58478f760e96245cb8?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 480,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Checklist Deleted Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Checklist Deleted Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				480
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Checklist Deleted Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "9f8ac224-85d2-463d-80b2-9146b3433b28",
+			"name": "Delete Card",
+			"url": "https://api.trello.com/1/cards/6509ff568223a6a2b0be32d4?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 684,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Card Deleted Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Card Deleted Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				684
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Card Deleted Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "df75063e-d7fd-4816-ac11-90934a33a4ec",
+			"name": "Delete List",
+			"url": "https://api.trello.com/1/lists/6509ff550ae4f2ab7b0c8444/closed?value=true&key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 699,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"List Archived Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"List Archived Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				699
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"List Archived Successfully.": true
+				}
+			]
+		},
+		{
+			"id": "f0a7eb56-1187-40b0-88c9-11b60fbd07ed",
+			"name": "Delete Board",
+			"url": "https://api.trello.com/1/boards/6509ff54088802f8131bdcf5?key=8078125414db6d98b7e9b65cdba65ef8&token=ATTA64422b82e91058193806ae563c790b58a073b4f7d379bfd3a6ff753834e0f2f4D7630BC2",
+			"time": 1282,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Good Response Time": true,
+				"Board Deleted Successfully.": true
+			},
+			"testPassFailCounts": {
+				"Good Response Time": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Board Deleted Successfully.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1282
+			],
+			"allTests": [
+				{
+					"Good Response Time": true,
+					"Board Deleted Successfully.": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8077,
+	"collection": {
+		"requests": [
+			{
+				"id": "6a2d6e7c-28eb-4a9c-8d6e-73b5f07d0e19",
+				"method": "POST"
+			},
+			{
+				"id": "eac8f322-1122-4f0e-bfc8-50c8e9a9da5b",
+				"method": "POST"
+			},
+			{
+				"id": "743f5702-0210-475a-b2e7-c3f73f1cfd37",
+				"method": "POST"
+			},
+			{
+				"id": "1f40831f-537f-4305-9a2f-84732aaa228e",
+				"method": "PUT"
+			},
+			{
+				"id": "3e053add-01e8-4c8e-84e6-dd7a2250ed88",
+				"method": "PUT"
+			},
+			{
+				"id": "6b3ef9d4-4e6e-4772-bba1-0bfd85f8e2c7",
+				"method": "PUT"
+			},
+			{
+				"id": "fe73f72f-c493-417b-b602-b7bff2cd130c",
+				"method": "GET"
+			},
+			{
+				"id": "9a069ca1-c809-4664-b3aa-d92d3f5ab543",
+				"method": "GET"
+			},
+			{
+				"id": "fa88c601-fe26-43f3-9e2b-7e6932e3ed0d",
+				"method": "GET"
+			},
+			{
+				"id": "8dae112f-ea64-472a-8c29-80e6f86c4a1e",
+				"method": "POST"
+			},
+			{
+				"id": "16c22768-97da-455b-87c1-a46cc170e379",
+				"method": "PUT"
+			},
+			{
+				"id": "faa9958d-f796-4289-ab92-2048397d958e",
+				"method": "GET"
+			},
+			{
+				"id": "40a12c48-7869-4798-af75-55c8971acd19",
+				"method": "DELETE"
+			},
+			{
+				"id": "9f8ac224-85d2-463d-80b2-9146b3433b28",
+				"method": "DELETE"
+			},
+			{
+				"id": "df75063e-d7fd-4816-ac11-90934a33a4ec",
+				"method": "PUT"
+			},
+			{
+				"id": "f0a7eb56-1187-40b0-88c9-11b60fbd07ed",
+				"method": "DELETE"
+			}
+		]
+	}
+}
